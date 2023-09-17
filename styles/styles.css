@@ -424,6 +424,10 @@ section {
   transform: scale(1);
 }
 
+.contact-content-con {
+  display: flex;
+  padding-top: 3.5rem;
+}
 .btn-con {
   display: flex;
   align-self: flex-start;
