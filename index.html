@@ -170,7 +170,7 @@
                     <div class="hover-items">
                         <h3>Weather App</h3>
                         <div class="icons">
-                            <a href="https://github.com/UmangJagatap/stunning-journey" class="icon">
+                            <a href="https://github.com/UmangJagatap/stunning-journey" class="icon" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -183,7 +183,7 @@
                     <div class="hover-items">
                         <h3>Spotify Clone</h3>
                         <div class="icons">
-                            <a href="https://github.com/UmangJagatap/spotifyclone" class="icon">
+                            <a href="https://github.com/UmangJagatap/spotifyclone" class="icon" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -196,7 +196,8 @@
                     <div class="hover-items">
                         <h3>Personal Portfolio Website</h3>
                         <div class="icons">
-                            <a href="https://github.com/UmangJagatap/Personal-Portfolio-Website" class="icon">
+                            <a href="https://github.com/UmangJagatap/Personal-Portfolio-Website" class="icon"
+                                target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -255,14 +256,14 @@
         <section class="section sec5 contact" id="contact">
             <div class="contact-container">
                 <div class="main-title">
-                    <h2>contact <span>me</span><span class="bg-text">my work</span></h2>
+                    <h2>contact <span>me</span><span class="bg-text">contact</span></h2>
                 </div>
                 <div class="contact-content-con">
                     <div class="left-contact">
                         <h4>Contact me here</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum molestias et animi alias? Omnis
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum molestias et animi alias? Omnis
                             facilis officiis voluptate soluta nostrum sequi odit quidem ut quod, minus doloremque quis
-                            culpa, atque voluptatem.</p>
+                            culpa, atque voluptatem.</p> -->
                         <div class="contact-info">
                             <div class="contact-item">
                                 <div class="icon">
@@ -270,7 +271,7 @@
                                     Location
                                 </div>
                                 <p>
-                                    :Manmad, Maharashtra
+                                    :Manmad Nashik, Maharashtra
                                 </p>
                             </div>
 
@@ -285,11 +286,11 @@
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
-                                    <i class="fa-solid fa-phone"></i> 
+                                    <i class="fa-solid fa-phone"></i>
                                     <span>Mobile No.</span>
                                 </div>
                                 <p>
-                                    <span>:+91 7038632493</span> 
+                                    <span>:+91 7038632493</span>
                                 </p>
                             </div>
                             <div class="contact-item">
@@ -301,7 +302,7 @@
                                     <span>:Marathi, Hindi, English</span>
                                 </p>
                             </div>
-                            
+
                         </div>
                         <div class="contact-icons">
                             <div class="contact-icon">
@@ -317,8 +318,21 @@
                     </div>
                     <div class="right-contact">
                         <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="Your Name">
+                                <input type="text" required placeholder="Email">
+                            </div>
                             <div class="input-control">
-                                
+                                <input type="text" required placeholder="Enter Subject">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" target="_blank" class="main-btn">
+                                    <span class="btn-text">Submit</span>
+                                    <span class="btn-icon"><i class="fa-solid fa-share-from-square"></i></span>
+                                </a>
                             </div>
                         </form>
                     </div>
@@ -330,22 +344,27 @@
     </main>
 
     <div class="controls">
-        <div class="control active-btn" data-id="home">
+        <div class="control active-btn" data-id="home" title="Home">
             <i class="fas fa-home"></i>
         </div>
-        <div class="control" data-id="about">
+        <div class="control" data-id="about" title="About">
             <i class="fas fa-user-tie"></i>
         </div>
-        <div class="control" data-id="portfolio">
+        <div class="control" data-id="portfolio" title="Portfolio">
             <i class="fas fa-briefcase"></i>
         </div>
         <!-- <div class="control" data-id="blogs">
             <i class="far fa-newspaper"></i>
         </div> -->
-        <div class="control" data-id="contact">
+        <div class="control" data-id="contact" title="Contact Me">
             <i class="fas fa-envelope-open"></i>
         </div>
     </div>
+
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+
     <script src="app.js"></script>
 
 </body>
