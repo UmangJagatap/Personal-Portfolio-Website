@@ -707,7 +707,7 @@ section {
     flex-direction: column;
   }
   .contact-content-con .left-contact .contact-info .contact-item p {
-    font-size: 13px !important;
+    font-size: 12px !important;
   }
   .contact-content-con .right-contact .i-c-2 :last-child {
     margin-left: 0;
